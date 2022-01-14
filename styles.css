@@ -1,0 +1,19 @@
+.Data {  display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 200px 790px 400px;
+    gap: 2px;
+    grid-auto-flow: row;
+    grid-template-areas: 
+    "Title"
+    "Selection"
+    "Footer";
+    background-color:white;
+}
+
+.Title { grid-area: Title; border: 1px solid red}
+
+.Selection { grid-area: Selection; border: 1px solid red ;}
+
+.Footer { grid-area: Footer;  border: 1px solid red ;}
+
+
